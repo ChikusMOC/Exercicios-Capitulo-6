@@ -22,7 +22,7 @@ while True:
             print(f'Maior numero digitado foi o {max(lista)}')
             print(f'Menor numero digitado foi o {min(lista)}')
             print(f'Media dos numeros pares é = '
-                  f'{sum([x for x in lista if x % 2 == 0])/len([x for x in lista if x % 2 ==0]):.2f}')
+                  f'{sum([x for x in lista if x % 2 == 0])/len([x for x in lista if x % 2 == 0]):.2f}')
             break
         else:
             raise ValueError
