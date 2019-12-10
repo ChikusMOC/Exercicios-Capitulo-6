@@ -18,8 +18,7 @@ while True:
                 num = int(input("Numero: "))
                 if num == 0:
                     raise ValueError
-                else:
-                    lista.append(num)
+                lista.append(num)
             except ValueError:
                 break
         if len(lista) > 0:
